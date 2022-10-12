@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Travel Stories</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/desert.jpg" alt="Desert" />
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./stories.html">Stories</a>
+        <a href="./contact.html">Reach Me</a>
+      </nav>
+      <section>
+        <h1>Lets connect</h1>
+        <blockquote>
+          "Life is Either a daring adventure or nothing at all"
+        </blockquote>
+      </section>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Your Details</legend>
+          <label for="fname">
+            First Name
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+              required
+            />
+          </label>
+          <label for="lname">
+            Last Name
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+              required
+            />
+          </label>
+          <label for="country">
+            Country
+            <select id="country" name="country">
+              <option value="Australia">Australia</option>
+              <option value="Canada">Canada</option>
+              <option value="USA">USA</option>
+            </select>
+          </label>
+        </fieldset>
+        <span>How did you hear about me?</span>
+        <input type="radio" id="website" name="how" checked value="website" />
+        <label for="website">Website</label>
+        <input type="radio" id="facebook" name="how" value="facebook" />
+        <label for="facebook">Facebook</label>
+        <p>Leave your comment here:</p>
+        <label for="comment">
+          <textarea
+            id="comment"
+            name="comment"
+            placeholder="Write something.."
+            cols="50"
+            rows="5"
+          ></textarea>
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+    <footer>Copyright 2020. All rights revserved. Made with &#10084;</footer>
+  </body>
+</html>
